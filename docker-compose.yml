@@ -65,7 +65,7 @@ networks:
 volumes:
   listmonk-data:
    driver: local
-    driver_opts:
+   driver_opts:
       type: "nfs"
       o: "addr=192.168.99.120,nolock,soft,rw"
       device: ":/mnt/tank/docker-volumes/app/listmonk-data"
